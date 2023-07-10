@@ -4,3 +4,5 @@
 
 ### codecademy assignment
 
+### future improvements
+working on integrating Material UI just to learn how it works
