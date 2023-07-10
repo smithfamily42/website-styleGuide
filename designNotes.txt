@@ -1,0 +1,27 @@
+Design notes for FlexBox Cheat Sheet
+
+BG color: #ff8c42
+or 
+Orange	#FFA500	rgb(255, 165, 0)
+or 
+DarkOrange: (255,140,0)
+
+Silver
+C0C0C0
+
+SteelBlue
+4682B4
+rgb(70,130,180)
+
+RoyalBlue
+4169E1
+
+black
+000000
+
+4563670014120506
+
+Fonts
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+Font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif.

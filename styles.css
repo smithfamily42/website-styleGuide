@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, 'Century Gothic', sans-serif;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.25em;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+header, footer {
+    width: 100%;
+    max-height: 7em;
+    background-color:rgba(255, 165, 0, 1);
+    flex: 0 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    padding: .25em;
+    text-shadow: -1px 1px silver;
+}
+
+main {
+    max-width: 85%;
+    margin: 0 auto;
+    box-shadow: -2px 5px 13px rgba(192, 192, 192, 1),
+    2px 5px 13px rgba(192, 192, 192, 1);
+    border-radius: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 2em;
+}
+
+section {
+    margin: .25em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 100%;
+}
+
+section > h2 {
+    padding: .5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    width: 50%;
+    padding: .5em;
+}
+
+section.colors aside {
+    text-align: center;
+}
+
+section.colors aside:nth-child(2) {
+    background-color: rgba(255, 165, 0, 1);
+}
+
+section.colors aside:nth-child(3) {
+    background-color: rgba(65, 105, 225, 1);
+    color: white;
+}
+
+section.colors aside:nth-child(4) {
+    background-color: rgba(70,130,180, 1);
+    color: white;
+}
+
+section.colors aside:nth-child(5) {
+    background-color: rgba(192, 192, 192, 1);
+}
+
+section.fonts > * {
+    text-align: left;
+}
+
+section.fonts aside:nth-child(3) {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section.fonts aside:nth-child(4) {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+.fontDec {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.boldFont {
+    font-weight: 700;
+}
+
+.italicFont {
+    font-style: italic;
+}
+
+.codeFont {
+    font-weight: 400;
+    font-size: .8em;
+    font-family: 'Robot Mono', monospace;
+    background-color: rgba(192, 192, 192, .3);
+}
+
+section.textStyles > * {
+    text-align: left;
+}
+
+section.textStyles ul {
+    padding-left: 1.5em;
+}
+
+.topHeading {
+    font-weight: 700;
+    font-size: 2.25em;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.subHeading {
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+button {
+    background-color:rgba(255, 165, 0, 1);
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: .5em;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    margin-top: 1em;
+}
